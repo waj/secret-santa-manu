@@ -1,0 +1,54 @@
+.staff-grid {
+  width: 800px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-areas: "a b c d";
+  grid-gap: 25px;
+}
+
+.staff-member {
+  text-align: center;
+}
+
+.staff-member.marked {
+  opacity: 0.2;
+}
+
+.staff-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid transparent;
+  filter: brightness(95%);
+}
+
+.staff-member img:hover {
+  border: 2px solid #aaa;
+}
+
+.clue-control {
+  text-align: center;
+  font-size: 30pt;
+  user-select: none;
+}
+
+.clue {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40pt;
+  background-color: #8ef;
+}
+
+.button {
+  margin: 20px;
+  color: #c00;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  font-size: 20pt;
+  margin-bottom: 20px;
+}
